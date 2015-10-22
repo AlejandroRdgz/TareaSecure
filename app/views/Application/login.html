@@ -1,0 +1,9 @@
+#{extends 'main.html' /}
+
+#{form @Application.autenticar(), method:'POST'}
+    Usuario:
+    <input type="text" name="usuario"/>
+    Password:
+    <input type="text" name="password"/>
+    <input type="submit"/>
+#{/form}
